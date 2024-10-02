@@ -6,7 +6,7 @@ const Couple = (props) => {
     return(
         <div id="couple" className={`about-wrap ${props.couple}`}>
             <div className="couple-area section-padding">
-                <Sectiontitle section={'Happy Cuple'}/>
+                <Sectiontitle section={'Los novios'}/>
                 <div className="container">
                     <div className="couple-wrap">
                         <div className="row">
@@ -17,8 +17,8 @@ const Couple = (props) => {
                                     </div>
                                     <div className="couple-text">
                                         <div className="couple-content">
-                                            <h3>Aliza Elizabeth</h3>
-                                            <p>Hi I am Nancy Elizabeth. I am going to introduce myself.I am a professional graphic designer professional graphic designer going to introduce myself.I am going to introduce myself.</p>
+                                            <h3>Pahola Matías</h3>
+                                            <p>Hola! Soy Pahola y soy la novia, soy Ingenieria Civil, actualmente vivo en la Cuidad de Guatemala, me gustan animales, la comida y dormir mucho. Me gusta hacer amigos y compartir tiempo y experiencias con ellos.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -30,8 +30,8 @@ const Couple = (props) => {
                                     </div>
                                     <div className="couple-text">
                                         <div className="couple-content">
-                                            <h3>David Wiliam</h3>
-                                            <p>Hi I am Nancy Elizabeth. I am going to introduce myself.I am a professional graphic designer professional graphic designer going to introduce myself.I am going to introduce myself.</p>
+                                            <h3>Edwin Chocoy</h3>
+                                            <p>Hola! Yo soy Edwin el novio, soy Ingeniero en Sistemas, actualmente vivo en la Cuidad de Guatemala, me gustan los videojuegos, ver series, la música y dormir. Soy una persona muy reservada y cautelosa, pero amigable.</p>
                                         </div>
                                     </div>
                                 </div>

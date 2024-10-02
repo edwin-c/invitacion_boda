@@ -15,7 +15,7 @@ class Gallery extends Component {
   render() {
     return (
       <div id="gallery" className="Gallery-section section-padding">
-          <Sectiontitle section={'Our Gellary'}/>
+          <Sectiontitle section={'Nuestra galería'}/>
           <div className="container">
               <div className="row">
                   <div className="col-lg-4 col-md-6 col-sm-6 col-12">

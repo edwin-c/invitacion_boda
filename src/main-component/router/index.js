@@ -17,14 +17,14 @@ const AllRoute = () => {
     <div className="App">
        <Router>
             <Switch>
-              <Route exact path='/' component={HomeMain} />
-              <Route path='/home' component={HomeMain} />
+              <Route exact path='/' component={Homepage4} />
+              {/* <Route path='/home' component={Homepage4} />
               <Route path='/home2' component={Homepage} />
               <Route path='/home3' component={Homepage2} />
               <Route path='/home4' component={Homepage4} />
               <Route path='/home5' component={Homepage3} />
               <Route path='/Blog' component={BlogPage} />
-              <Route path='/Blog-details' component={BlogDetailsPage} />
+              <Route path='/Blog-details' component={BlogDetailsPage} /> */}
             </Switch>
             <Scrollbar />
           </Router>

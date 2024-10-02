@@ -118,7 +118,8 @@ class Rsvp extends Component {
                                             <p>{error.notes ? error.notes : ''}</p>
                                         </div>
                                         <div className="col-12 text-center">
-                                            <button id="submit" type="submit" className="submit">Send Invitation</button>
+                                            <button id="submit_novio" type="submit" className="submit mr-3">Confirmar con el Novio</button>
+                                            <button id="submit_novia" type="submit" className="submit">Confirmar con la Novia</button>
                                         </div>
                                     </div>
                                 </form>

@@ -7,8 +7,8 @@ const Footer = (props) => {
             <div className="container">
                 <div className="row">
                     <div className="text">
-                        <h2>David & Aliza</h2>
-                        <p>Thank you</p>
+                        <h2>Edwin & Paho</h2>
+                        {/* <p>Gracias</p> */}
                     </div>
                 </div>
             </div> 

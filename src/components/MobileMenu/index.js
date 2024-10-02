@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Collapse, CardBody, Card } from 'reactstrap';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './style.css';
 
 export default class MobileMenu extends Component {
@@ -33,10 +33,10 @@ export default class MobileMenu extends Component {
                 <div className={`mobileMenu ${isMenuShow ? 'show' : ''}`}>
                     {/* <div className="clox" onClick={this.menuHandler}>Close Me</div> */}
                     <div className="logo2">
-                        <h2><Link to='/home'>David & Aliza</Link></h2>
+                        <h2><Link to='/home'>Paho & Edwin</Link></h2>
                     </div>
                     <ul className="responsivemenu">
-                        <li><p onClick={this.setIsOpen}>Home<i className="fa fa-angle-right" aria-hidden="true"></i></p></li>
+                        {/* <li><p onClick={this.setIsOpen}>Home<i className="fa fa-angle-right" aria-hidden="true"></i></p></li>
                         <Collapse isOpen={isOpen}>
                             <Card>
                                 <CardBody>
@@ -47,20 +47,19 @@ export default class MobileMenu extends Component {
                                     <li><Link to='/home5'>Home video</Link></li>
                                 </CardBody>
                             </Card>
-                        </Collapse>
-                        <li><AnchorLink href='#couple'>Couple</AnchorLink></li>
-                        <li><AnchorLink href='#story'>Story</AnchorLink></li>
-                        <li><AnchorLink href='#people'>People</AnchorLink></li>
-                        <li><AnchorLink href='#event'>Events</AnchorLink></li>
-                        <li><AnchorLink href='#gallery'>Gallery</AnchorLink></li>
-                        <li><AnchorLink  href='#rsvp'>Rsvp</AnchorLink></li>
-                        <li><Link to='/blog'>Blog</Link></li>
-                        <li><Link to='/Blog-details'>Blog Details</Link></li>
+                        </Collapse> */}
+                        <li><AnchorLink href='#home'>Inicio</AnchorLink></li>
+                        <li><AnchorLink href='#couple'>Los novios</AnchorLink></li>
+                        <li><AnchorLink href='#story'>Nuestra historia</AnchorLink></li>
+                        <li><AnchorLink href='#gallery'>Galería</AnchorLink></li>
+                        <li><AnchorLink href='#event'>Reservación</AnchorLink></li>
+                        <li><AnchorLink href='#rsvp'>Invitación</AnchorLink></li>
+                        <li><AnchorLink href='#location'>Ubicación</AnchorLink></li>
                     </ul>
-                    
+
                 </div>
 
-                <div className="showmenu" onClick={this.menuHandler}><i className="fa fa-bars" aria-hidden="true"></i></div>         
+                <div className="showmenu" onClick={this.menuHandler}><i className="fa fa-bars" aria-hidden="true"></i></div>
             </div>
         )
     }
