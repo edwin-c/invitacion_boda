@@ -21,10 +21,9 @@ const Getting = (props) => {
             <Sectiontitle section={'Cómo llegar'} />
             <div className="container">
                 <div className="row">
-
                     <div className="col col-lg-8 offset-lg-2 col-md-8 offset-md-2">
                         <div className='row'>
-                            <Button className="btn" onClick={toggle}>Ubicación</Button>
+                            <Button className="btn" onClick={toggle}>Ver mapa</Button>
                             <Modal isOpen={modal} toggle={toggle} className={className}>
                                 <ModalHeader toggle={toggle}>Ubicación</ModalHeader>
                                 <ModalBody>
@@ -38,9 +37,9 @@ const Getting = (props) => {
                         </div>
                         <div className="row">
                             <div className="heading col-md-12 col-sm-6">
-                                <h4>Opción 1</h4>
+                                <h4>Opción 1 - Vía terrestre</h4>
                                 <div className="gta-content">
-                                    <p>industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s</p>
+                                    <p>Para poder llegar a San Juan La Laguna vía terrestre, debes llegar al kilómetro 148 de la ruta interamericana e iniciar el descenso a el Lago de Atitlán, toma en cuenta que es una ruta montañosa, tu vehículo debe estar en óptimas condiciones.</p>
                                 </div>
                                 {/* <div className="gta-img"> */}
                                 <div className="gta-img">
@@ -48,9 +47,9 @@ const Getting = (props) => {
                                 </div>
                             </div>
                             <div className="heading heading-2 col-md-12 col-sm-6">
-                                <h4>Opción 2</h4>
+                                <h4>Opción 2 - Vía terrestre y acuática</h4>
                                 <div className="gta-content">
-                                    <p>industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s</p>
+                                    <p>Para poder llegar a San Juan La Laguna, la primera parte será vía terrestre, debes llegar a Panajachel y tomar una lancha que te transporte a San Juan La Laguna.</p>
                                 </div>
                                 <div className="gta-img">
                                     <img src={gta2} alt="" />

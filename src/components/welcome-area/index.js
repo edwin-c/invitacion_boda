@@ -23,7 +23,8 @@ const Welcome = (props) => {
                         <h2>Bienvenidos a nuestro gran día</h2>
                         <p>Gracias por compartir con nosotros este día que hemos esperado con mucho ilusión. Queremos verte bailar, reir y disfrutar.</p>
                         <div className="btn"><AnchorLink href='#rsvp'>Invitación</AnchorLink></div>
-                        <Button className="btn" onClick={toggle}>Ubicación</Button>
+                        <div className="btn"><AnchorLink href='#location'>Ubicación</AnchorLink></div>
+                        {/* <Button className="btn" onClick={toggle}>Ubicación</Button> */}
                         <Modal isOpen={modal} toggle={toggle} className={className}>
                             <ModalHeader toggle={toggle}>Ubicación</ModalHeader>
                             <ModalBody>
