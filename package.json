@@ -1,7 +1,7 @@
 {
   "name": "TwainLove",
   "version": "0.1.0",
-  "homepage": "http://twain-love.themepresss.com",
+  "homepage": "https://edwin-c.github.io/invitacion_boda/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
@@ -10,8 +10,8 @@
     "react-animated-css": "^1.2.1",
     "react-countdown-now": "^2.1.2",
     "react-dom": "^16.12.0",
-    "react-fancybox": "^0.2.5",
     "react-fontawesome": "^1.7.1",
+    "react-image-gallery": "^1.3.0",
     "react-owl-carousel": "^2.3.1",
     "react-particles-js": "^2.7.1",
     "react-router-dom": "^5.1.2",
@@ -24,6 +24,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import ReactFancyBox from 'react-fancybox'
-import 'react-fancybox/lib/fancybox.css'
+import React, { Component } from 'react';
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 import Sectiontitle from '../section-title'
 import './style.css'
 
@@ -11,58 +11,69 @@ import galimg4 from '../../images/gal/img-4.jpg'
 import galimg5 from '../../images/gal/img-5.jpg'
 import galimg6 from '../../images/gal/img-6.jpg'
 
+
+const images = [
+  {
+    original: galimg1,
+    thumbnail: galimg1,
+  },
+  {
+    original: galimg2,
+    thumbnail: galimg2,
+  },
+  {
+    original: galimg3,
+    thumbnail: galimg3,
+  },
+  {
+    original: galimg3,
+    thumbnail: galimg3,
+  },
+  {
+    original: galimg3,
+    thumbnail: galimg3,
+  },
+  {
+    original: galimg3,
+    thumbnail: galimg3,
+  },
+  {
+    original: galimg3,
+    thumbnail: galimg3,
+  },
+  {
+    original: galimg3,
+    thumbnail: galimg3,
+  },{
+    original: galimg3,
+    thumbnail: galimg3,
+  },{
+    original: galimg3,
+    thumbnail: galimg3,
+  },
+  {
+    original: galimg3,
+    thumbnail: galimg3,
+  },{
+    original: galimg3,
+    thumbnail: galimg3,
+  },{
+    original: galimg3,
+    thumbnail: galimg3,
+  },
+];
+
 class Gallery extends Component {
   render() {
     return (
       <div id="gallery" className="Gallery-section section-padding">
-          <Sectiontitle section={'Nuestra galería'}/>
-          <div className="container">
-              <div className="row">
-                  <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                      <div className="gallery-img">
-                        <ReactFancyBox
-                            thumbnail={galimg1}
-                            image={galimg1}/>
-                      </div>
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                      <div className="gallery-img">
-                        <ReactFancyBox
-                            thumbnail={galimg2}
-                            image={galimg2}/>
-                      </div>
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                      <div className="gallery-img">
-                        <ReactFancyBox
-                            thumbnail={galimg3}
-                            image={galimg3}/>
-                      </div>
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                      <div className="gallery-img">
-                        <ReactFancyBox
-                            thumbnail={galimg4}
-                            image={galimg4}/>
-                      </div>
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                      <div className="gallery-img">
-                        <ReactFancyBox
-                            thumbnail={galimg5}
-                            image={galimg5}/>
-                      </div>
-                  </div>
-                  <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                      <div className="gallery-img">
-                        <ReactFancyBox
-                            thumbnail={galimg6}
-                            image={galimg6}/>
-                      </div>
-                  </div>
-              </div>
+        <Sectiontitle section={'Nuestra galería'} />
+        <div className="container">
+          <div className="col">
+            <ImageGallery items={images} useTranslate3D={true} showThumbnails={true} />
           </div>
-      </div>
+        </div>
+      </div >
     );
   }
 }

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom'; // Importa withRouter
-import ReactFancyBox from 'react-fancybox';
-import 'react-fancybox/lib/fancybox.css';
 import Sectiontitle from '../section-title';
 import gta1 from '../../images/inv/invi-01.jpg';
 import gta2 from '../../images/inv/invi-02.jpg';
@@ -44,9 +42,9 @@ class Rsvp extends Component {
 
             this.setState({ name: invitado.name, cupos: invitado.cupos });
         } else {
-           
+
             console.log("Invitado no encontrado.");
-           
+
         }
     }
 
@@ -100,7 +98,7 @@ class Rsvp extends Component {
                         <div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                             <div className="rsvp-wrap">
                                 <div className="gta-img">
-                                    <ReactFancyBox thumbnail={gta1} image={gta1} />
+                                    <img src={gta1} alt="" />
                                 </div>
                                 <div className="d-flex justify-content-center align-items-center w-100 mt-5">
                                     <div className="d-flex flex-column w-100 align-items-center">
