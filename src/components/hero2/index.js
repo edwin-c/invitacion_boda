@@ -26,7 +26,7 @@ const PreviewHero = (props) => {
                           <h2>Reserva nuestra fecha</h2>
                       </div>
                       <div className="slide-text">
-                          <p style={{fontSize:"20px"}}>23 de Noviembre de 2024</p>
+                          <p style={{fontSize:"15px"}}>23 de Noviembre de 2024</p>
                       </div>
                       <Animated>
                           <div className="animated-circle"></div>

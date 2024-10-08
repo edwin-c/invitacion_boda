@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import git1 from '../../images/gift/img-1.jpg'
+import gift1 from '../../images/gift/img-1.jpg'
 import gift2 from '../../images/gift/img-2.jpg'
 import gift3 from '../../images/gift/img-3.jpg'
 import gift4 from '../../images/gift/img-4.jpg'
