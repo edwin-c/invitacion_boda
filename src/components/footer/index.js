@@ -7,7 +7,7 @@ const Footer = (props) => {
             <div className="container">
                 <div className="row">
                     <div className="text">
-                        <h2>Edwin & Paho</h2>
+                        <h2 style={{fontSize:"50px"}}>Te esperamos</h2>
                         {/* <p>Gracias</p> */}
                     </div>
                 </div>

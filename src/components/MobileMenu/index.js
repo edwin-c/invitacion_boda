@@ -33,7 +33,7 @@ export default class MobileMenu extends Component {
                 <div className={`mobileMenu ${isMenuShow ? 'show' : ''}`}>
                     {/* <div className="clox" onClick={this.menuHandler}>Close Me</div> */}
                     <div className="logo2">
-                        <h2><Link to='/home'>Paho & Edwin</Link></h2>
+                        <h2><Link to='/home'>Paho y Edwin</Link></h2>
                     </div>
                     <ul className="responsivemenu">
                         {/* <li><p onClick={this.setIsOpen}>Home<i className="fa fa-angle-right" aria-hidden="true"></i></p></li>

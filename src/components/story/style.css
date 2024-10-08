@@ -3,6 +3,7 @@
 }
 .story-img{
     overflow: hidden;
+    padding-top: 30px;
 }
 .story-img img{
     width: 100%;

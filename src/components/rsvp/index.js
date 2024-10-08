@@ -3,6 +3,7 @@ import ReactFancyBox from 'react-fancybox'
 import 'react-fancybox/lib/fancybox.css'
 import Sectiontitle from '../section-title'
 import gta1 from '../../images/inv/invi-01.jpg'
+import gta2 from '../../images/inv/invi-02.jpg'
 import './style.css'
 
 class Rsvp extends Component {
@@ -92,9 +93,8 @@ class Rsvp extends Component {
                                         thumbnail={gta1}
                                         image={gta1} />
                                 </div>
-                                <h3>Pase reservado para:</h3>
                                 <h2>Familia Chocoy Cordon</h2>
-                                <h3>Reservación para:</h3>
+                                <h3>Invitación para:</h3>
                                 <h1>3 personas</h1>
                                 <form onSubmit={this.subimtHandler}>
                                     <div className="contact-form form-style">
@@ -133,6 +133,9 @@ class Rsvp extends Component {
                                         </div>
                                     </div>
                                 </form>
+                                <div className="gta-img">
+                                    <img src={gta2} alt="" />
+                                </div>
                             </div>
                         </div>
                     </div>
