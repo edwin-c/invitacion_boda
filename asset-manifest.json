@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/invitacion_boda/static/css/main.081db162.chunk.css",
+    "main.js": "/invitacion_boda/static/js/main.5de8dc86.chunk.js",
+    "main.js.map": "/invitacion_boda/static/js/main.5de8dc86.chunk.js.map",
+    "runtime~main.js": "/invitacion_boda/static/js/runtime~main.04418184.js",
+    "runtime~main.js.map": "/invitacion_boda/static/js/runtime~main.04418184.js.map",
+    "static/css/2.b2e20ed0.chunk.css": "/invitacion_boda/static/css/2.b2e20ed0.chunk.css",
+    "static/js/2.a5e1c8c8.chunk.js": "/invitacion_boda/static/js/2.a5e1c8c8.chunk.js",
+    "static/js/2.a5e1c8c8.chunk.js.map": "/invitacion_boda/static/js/2.a5e1c8c8.chunk.js.map",
+    "index.html": "/invitacion_boda/index.html",
+    "precache-manifest.cf47db65c364ac3a6e960f2d699529ae.js": "/invitacion_boda/precache-manifest.cf47db65c364ac3a6e960f2d699529ae.js",
+    "service-worker.js": "/invitacion_boda/service-worker.js",
+    "static/css/2.b2e20ed0.chunk.css.map": "/invitacion_boda/static/css/2.b2e20ed0.chunk.css.map",
+    "static/css/main.081db162.chunk.css.map": "/invitacion_boda/static/css/main.081db162.chunk.css.map",
+    "static/media/style.css": "/invitacion_boda/static/media/vector2.fa68b101.png",
+    "static/media/5star.svg": "/invitacion_boda/static/media/5star.39020e76.svg",
+    "static/media/font-awesome.min.css": "/invitacion_boda/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/img-1.jpg": "/invitacion_boda/static/media/img-1.7fb38c92.jpg",
+    "static/media/img-2.jpg": "/invitacion_boda/static/media/img-2.9f41601f.jpg",
+    "static/media/invi-01.jpg": "/invitacion_boda/static/media/invi-01.ab165906.jpg",
+    "static/media/invi-02.jpg": "/invitacion_boda/static/media/invi-02.93e1cc7e.jpg",
+    "static/media/round_shape.svg": "/invitacion_boda/static/media/round_shape.54f3aeb0.svg",
+    "static/media/shape1.svg": "/invitacion_boda/static/media/shape1.54f3aeb0.svg",
+    "static/media/shape2.svg": "/invitacion_boda/static/media/shape2.72d0282b.svg",
+    "static/media/shape3.svg": "/invitacion_boda/static/media/shape3.173408f1.svg",
+    "static/media/slick-theme.css": "/invitacion_boda/static/media/slick.f97e3bbf.svg",
+    "static/media/star.svg": "/invitacion_boda/static/media/star.3697e1f3.svg",
+    "static/media/star_stock.svg": "/invitacion_boda/static/media/star_stock.92e75b76.svg",
+    "static/media/stock_shape.svg": "/invitacion_boda/static/media/stock_shape.52e208c8.svg"
+  }
+}
