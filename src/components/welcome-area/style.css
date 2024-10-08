@@ -9,6 +9,8 @@ welcome-area
     background-attachment: fixed;
 }
 .welcome-area.s2{
+    background-position: center;
+    background-size: cover !important; 
     background: url(../../images/slider/3.jpg);
     background-attachment: fixed;
 }

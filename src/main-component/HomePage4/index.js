@@ -27,12 +27,12 @@ const Homepage4 = () => {
            <Couple couple={'s2'} coupleimg1={couple1} coupleimg2={couple2}/>
            <Welcome welcome={'s2'}/>
            <Story/>
-           <People guest={'guest-style'}/>
-           <Location/>
+           {/* <People guest={'guest-style'}/> */}
            <Gallery/>
+           <Location/>
            <Rsvp/>
            <Getting/>
-           <Gift/>
+           {/* <Gift/> */}
            <Footer footer={'s2'}/>
        </div>
     )
