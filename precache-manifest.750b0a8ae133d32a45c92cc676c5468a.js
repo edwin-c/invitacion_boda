@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6fd093721a20ac17f06a7905db9b6b74",
+    "revision": "2b33ab1bb312c97045fe0667906ce525",
     "url": "/invitacion_boda/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/invitacion_boda/static/css/2.b2e20ed0.chunk.css"
   },
   {
-    "revision": "49f1dec0922ca41b69c6",
-    "url": "/invitacion_boda/static/css/main.39a529e6.chunk.css"
+    "revision": "959446f2466affe3fcd0",
+    "url": "/invitacion_boda/static/css/main.2ffd5fa9.chunk.css"
   },
   {
     "revision": "0f7d68d443508137bb5e",
     "url": "/invitacion_boda/static/js/2.6270d232.chunk.js"
   },
   {
-    "revision": "49f1dec0922ca41b69c6",
-    "url": "/invitacion_boda/static/js/main.88b6d876.chunk.js"
+    "revision": "959446f2466affe3fcd0",
+    "url": "/invitacion_boda/static/js/main.06fabe16.chunk.js"
   },
   {
     "revision": "971929f1a0dcc25c13a4",
@@ -56,16 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/invitacion_boda/static/media/img-1.41a70437.jpg"
   },
   {
+    "revision": "5de9eef57e8112af887633a6620f9ee9",
+    "url": "/invitacion_boda/static/media/img-1.5de9eef5.jpg"
+  },
+  {
     "revision": "7fb38c9237b81988c99c3a885fc95243",
     "url": "/invitacion_boda/static/media/img-1.7fb38c92.jpg"
   },
   {
     "revision": "8666af3a146ed37a94485b0d21806cab",
     "url": "/invitacion_boda/static/media/img-1.8666af3a.jpg"
-  },
-  {
-    "revision": "fb4d7fe6d88abe5ad326e0b3a0bbd969",
-    "url": "/invitacion_boda/static/media/img-1.fb4d7fe6.jpg"
   },
   {
     "revision": "9f3353eced9041a32e6f1b65cfe45d7d",
@@ -164,16 +164,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/invitacion_boda/static/media/img-32.63ac1ff7.jpg"
   },
   {
-    "revision": "3a785028b8394510d8c73974f5e15768",
-    "url": "/invitacion_boda/static/media/img-4.3a785028.jpg"
-  },
-  {
     "revision": "55e9d7f72ab36bd7bb571bcb7d2d4914",
     "url": "/invitacion_boda/static/media/img-4.55e9d7f7.jpg"
   },
   {
     "revision": "c0c30af7956347ea2a431e2273f6d649",
     "url": "/invitacion_boda/static/media/img-4.c0c30af7.jpg"
+  },
+  {
+    "revision": "d1bff7c68f64883a4cebbbe6c01e669f",
+    "url": "/invitacion_boda/static/media/img-4.d1bff7c6.jpg"
   },
   {
     "revision": "1ad53973ec1870a70fc3eb17300fa8d3",
