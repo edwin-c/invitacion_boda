@@ -50,12 +50,12 @@
 }
 
 .items1 {
-  background: url(../../images/slider/3.jpg);
+  background: url(../../images/slider/1.jpg);
 }
 
 .item2,
 .items2 {
-  background: url(../../images/slider/2.jpg);
+  background: url(../../images/slider/1.jpg);
   height: 950px;
   display: flex !important;
   justify-content: center;
@@ -64,7 +64,7 @@
 }
 
 .items2 {
-  background: url(../../images/slider/4.jpg);
+  background: url(../../images/slider/1.jpg);
 }
 
 .slide-content {
@@ -85,7 +85,7 @@
 .animated-circle {
   width: 103%;
   height: 103%;
-  background: rgba(178, 201, 211, 0.3);
+  background: #002147;
   border-radius: 50%;
   position: absolute;
   left: -1.5%;

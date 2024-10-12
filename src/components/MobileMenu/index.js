@@ -52,7 +52,7 @@ export default class MobileMenu extends Component {
                         <li><AnchorLink href='#couple'>Los novios</AnchorLink></li>
                         <li><AnchorLink href='#story'>Nuestra historia</AnchorLink></li>
                         <li><AnchorLink href='#gallery'>Galería</AnchorLink></li>
-                        <li><AnchorLink href='#event'>Reservación</AnchorLink></li>
+                        <li><AnchorLink href='#event'>Recepción</AnchorLink></li>
                         <li><AnchorLink href='#rsvp'>Invitación</AnchorLink></li>
                         <li><AnchorLink href='#location'>Ubicación</AnchorLink></li>
                     </ul>

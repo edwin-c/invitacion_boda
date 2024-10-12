@@ -102,7 +102,7 @@ const PreviewHero = (props) => {
                             ]
                         },
                         color: {
-                            value: "#85aaba"
+                            value: "#002147"
                         },
                         size: {
                             value: 20,

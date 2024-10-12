@@ -11,7 +11,7 @@ welcome-area
 .welcome-area.s2{
     background-position: center;
     background-size: cover !important; 
-    background: url(../../images/slider/3.jpg);
+    background: url(../../images/slider/1.jpg);
     background-attachment: fixed;
 }
 
@@ -46,8 +46,8 @@ welcome-area
 
 .btn a {
     display: inline-block;
-    background: #fff;
-    color: #8ba1aa;
+    background: #002147;
+    color: #fff;
     padding: 10px 38px;
     font-size: 18px;
     transition: all .3s;
@@ -62,8 +62,8 @@ welcome-area
 
 button.btn{
     display: inline-block;
-    background: #fff;
-    color: #8ba1aa;
+    background: #002147;
+    color: #fff;
     padding: 10px 38px;
     font-size: 18px;
     transition: all .3s;
