@@ -5,6 +5,9 @@ import strory1 from '../../images/story/img-1.jpg'
 import strory2 from '../../images/story/img-2.jpg'
 import strory3 from '../../images/story/img-3.jpg'
 import strory4 from '../../images/story/img-4.jpg'
+import strory5 from '../../images/story/img-5.jpg'
+import strory6 from '../../images/story/img-6.jpg'
+import strory7 from '../../images/story/img-7.jpg'
 import './style.css'
 
 
@@ -77,7 +80,7 @@ const Story = () =>{
                         </div>
                         <div className="col-lg-6 col-md-12 col-12 pr-n">
                             <div className="story-img">
-                                <img src={strory3} alt=""/>
+                                <img src={strory5} alt=""/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-12">
@@ -102,12 +105,12 @@ const Story = () =>{
                         </div>
                         <div className="col-lg-6 col-md-12 col-12 pl-n">
                             <div className="story-img">
-                                <img src={strory4} alt=""/>
+                                <img src={strory6} alt=""/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-12 pr-n">
                             <div className="story-img">
-                                <img src={strory3} alt=""/>
+                                <img src={strory7} alt=""/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-12 col-12">

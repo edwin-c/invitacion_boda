@@ -11,7 +11,7 @@ class Saveday extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 mt-3">
-                            <Sectiontitle section={'Cuentra atrás'} />
+                            <Sectiontitle section={'Cuenta regresiva para nuestra boda'} />
                             <div className="countdownwrap">
                                 <CountDown
                                     deadline="Nov 23, 2024 10:00:00"

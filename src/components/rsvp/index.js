@@ -94,23 +94,23 @@ class Rsvp extends Component {
 
         const handleRedirectNovio = () => {
             if (events == '1') {
-                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Edwin, recibi la invitación para " + name + " y quiero confirmar la asistencia de " + cupos), '_blank');
+                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Edwin, recibí la invitación para " + name + " y quiero confirmar la asistencia de " + cupos + " a tu boda."), '_blank');
             }
             else {
-                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Edwin, quiero confirmar la inasistencia de " + name + " con " + cupos), '_blank');
+                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Edwin, recibí la invitación para tu boda y lastimosamente no te podré acompañar ese día."), '_blank');
             }
         };
         const handleRedirectNovia = () => {
             if (events == '1') {
-                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Paho, recibi la invitación para " + name + " y quiero confirmar la asistencia de " + cupos), '_blank');
+                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Paho, recibí la invitación para " + name + " y quiero confirmar la asistencia de " + cupos + " a tu boda."), '_blank');
             }
             else {
-                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Paho, quiero confirmar la inasistencia de " + name + " con " + cupos), '_blank');
+                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Paho, recibí la invitación para tu boda y lastimosamente no te podré acompañar ese día."), '_blank');
             }
         };
         return (
             <div id="rsvp" className="rsvp-area go-rsvp-area section-padding">
-                <Sectiontitle section={'Nuestra boda'} />
+                <Sectiontitle section={'Invitación'} />
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
