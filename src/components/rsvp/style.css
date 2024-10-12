@@ -53,7 +53,7 @@ select.form-control:not([size]):not([multiple]) {
     outline: none;
 }
 
-.contact-form button {
+.contact-form button.btn {
     background: none;
     border: none;
     padding: 10px 30px;
@@ -64,12 +64,14 @@ select.form-control:not([size]):not([multiple]) {
     cursor: pointer;
     border: 1px solid rgba(255,255,255,.3);
     border-radius: 40px;
+    font-size: small;
+    font-weight: 600;
 }
-.contact-form button:focus{
+.contact-form button.btn:focus{
     outline: none;
 }
 
-.contact-form button:hover {
+.contact-form button.btn:hover {
     background:#b2c9d3;
 }
 ::-webkit-input-placeholder {

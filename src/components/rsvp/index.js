@@ -4,6 +4,7 @@ import Sectiontitle from '../section-title';
 import gta1 from '../../images/inv/invi-01.jpg';
 import gta2 from '../../images/inv/invi-02.jpg';
 import './style.css';
+import { Button } from 'reactstrap';
 
 const invitados = [
     {
@@ -20,13 +21,10 @@ const invitados = [
 
 class Rsvp extends Component {
     state = {
-        name: '',
         cupos: 0,
-        email: '',
-        rsvp: '',
-        events: '',
-        notes: '',
-        error: {}
+        events: '1',
+        error: {},
+        buttonText: 'Confirmar'
     };
 
     componentDidMount() {
@@ -49,12 +47,22 @@ class Rsvp extends Component {
     }
 
     changeHandler = (e) => {
-        const error = this.state.error;
-        error[e.target.name] = '';
+        const selectedValue = e.target.value;
+        let buttonText = 'Confirmar';
+
+        if (selectedValue === '1') {
+            buttonText = 'Confirmar';
+        } else if (selectedValue === '2') {
+            buttonText = 'Confirmar inasistencia';
+        }
 
         this.setState({
-            [e.target.name]: e.target.value,
-            error
+            [e.target.name]: selectedValue,
+            buttonText: buttonText,
+            error: {
+                ...this.state.error,
+                [e.target.name]: ''
+            }
         });
     };
 
@@ -73,23 +81,33 @@ class Rsvp extends Component {
             });
         }
 
-        if (error.name === '' && error.email === '' && error.rsvp === '' && error.events === '' && error.notes === '') {
+        if (error.events === '') {
             this.setState({
-                name: '',
-                email: '',
-                rsvp: '',
                 events: '',
-                notes: '',
                 error: {}
             });
         }
-
-        console.log(this.state);
-        console.log(this.state.error.notes);
     };
-
     render() {
-        const { name, cupos, email, rsvp, events, notes, error } = this.state;
+        const { name, cupos, events, error, buttonText } = this.state;
+        console.log(this.state)
+
+        const handleRedirectNovio = () => {
+            if (events == '1') {
+                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Edwin, recibi la invitación para " + name + " y quiero confirmar la asistencia de " + cupos), '_blank');
+            }
+            else {
+                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Edwin, quiero confirmar la inasistencia de " + name + " con " + cupos), '_blank');
+            }
+        };
+        const handleRedirectNovia = () => {
+            if (events == '1') {
+                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Paho, recibi la invitación para " + name + " y quiero confirmar la asistencia de " + cupos), '_blank');
+            }
+            else {
+                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Paho, quiero confirmar la inasistencia de " + name + " con " + cupos), '_blank');
+            }
+        };
         return (
             <div id="rsvp" className="rsvp-area go-rsvp-area section-padding">
                 <Sectiontitle section={'Nuestra boda'} />
@@ -102,12 +120,16 @@ class Rsvp extends Component {
                                 </div>
                                 <div className="d-flex justify-content-center align-items-center w-100 mt-5">
                                     <div className="d-flex flex-column w-100 align-items-center">
-                                        <h2>{name}</h2>
+                                        <h1>{name}</h1>
                                         <h3 className='pt-2'>Invitación para:</h3>
                                         <h1>{cupos}</h1>
                                     </div>
                                 </div>
-                                <form onSubmit={this.submitHandler}>
+                                <br></br>
+                                <div className="d-flex flex-column w-100 align-items-center">
+                                    <span>Nos encantaría contar con tu presencia en nuestra boda, así que por favor confirma tu asistencia antes del 05 de noviembre 2024</span>
+                                </div>
+                                <form>
                                     <div className="contact-form form-style">
                                         <div className="col col-sm-12">
                                             <select className="form-control" onChange={this.changeHandler} value={events} name="events">
@@ -117,8 +139,8 @@ class Rsvp extends Component {
                                             <p>{error.events ? error.events : ''}</p>
                                         </div>
                                         <div className="col-12 text-center pb-4">
-                                            <button id="submit_novio" type="submit" className="submit mr-sm-4">Confirmar con el Novio </button>
-                                            <button id="submit_novia" type="submit" className="submit">Confirmar con la Novia</button>
+                                            <Button id="submit_novio" onClick={handleRedirectNovio} className="btn m-3">{buttonText} con el Novio </Button>
+                                            <Button id="submit_novia" onClick={handleRedirectNovia} className="btn m-3">{buttonText} con la Novia</Button>
                                         </div>
                                     </div>
                                 </form>

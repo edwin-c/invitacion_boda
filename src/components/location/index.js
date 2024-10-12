@@ -39,9 +39,9 @@ const Location = (props) => {
                                             <div className="col-lg-7 col-md-12 col-12">
                                                 <div className="event-text">
                                                     <h3>Ceremonia de boda</h3>
-                                                    <span>Sábado, 23 de Noviembre de 2024, 11:00 AM-4:00 PM</span>
+                                                    <span>Sábado, 23 de Noviembre de 2024, 10:00 AM-3:00 PM</span>
                                                     <span>Eco Hotel Uxlabil Atitlán</span>
-                                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal </p>
+                                                    <p>En el mágico escenario del Lago de Atitlán, donde las aguas serenas reflejan los volcanes y el cielo se une con la tierra, nos uniremos en matrimonio. Rodeados de la belleza natural y el encanto de este lugar, los invitamos a acompañarnos en el Hotel Uxlabil, a orillas del lago, donde los atardeceres se tornan dorados y las noches se llenan de estrellas. Únanse a nosotros para celebrar el amor en un lugar tan eterno como nuestro compromiso.</p>
                                                     <AnchorLink href="#location">
                                                         <Button className="btn submit" onClick={toggle}>Ubicación</Button>
                                                     </AnchorLink>

@@ -22,9 +22,9 @@ const Story = () =>{
                         </div>
                         <div className="col-lg-6 col-md-12 col-12">
                             <div className="story-text left-align-text">
-                                <h3>Nos conocimos</h3>
+                                <h3>El destino nos encotró</h3>
                                 <span className="date">05 de abril, 2019</span>
-                                <p>Edwin vio a Paho por primera vez en la Universidad en una clase que compartian, Paho era muy despistada y no lo notó, pero un día ella llegó tarde a la clase y una de sus amiga le apartó un lugar. Para entender el tema le preguntó a quien tenía al lado, que justamente era Edwin. Él le sonrió y le explicó otro tema que no tenía relación con la pregunta que hizo Paho, ella le volvió a preguntar y Edwin </p>
+                                <p>Edwin vio a Paho por primera vez en la universidad, en una clase que compartían. Paho, siempre un poco despistada, no lo notó en ese momento. Un día, llegó tarde a clase y una amiga le había guardado un lugar. Al sentarse, Paho, buscando ponerse al día, le hizo una pregunta a la persona junto a ella, que resultó ser Edwin. Él le sonrió y, con una mezcla de nervios y encanto, terminó explicándole otro tema que no tenía nada que ver con su pregunta. </p>
                                 {/* <div className="story-button">
                                     <Link className="theme-btn" to='/'>Read More</Link>
                                 </div> */}
@@ -52,7 +52,7 @@ const Story = () =>{
                         </div>
                         <div className="col-lg-6 col-md-12 col-12">
                             <div className="story-text left-align-text">
-                                <h3>Nos hicimos novios</h3>
+                                <h3>Un sí que cambio todo</h3>
                                 <span className="date">06 de julio, 2019</span>
                                 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, </p>
                                 <div className="story-button">
@@ -62,7 +62,7 @@ const Story = () =>{
                         </div>
                         <div className="col-lg-6 col-md-12 col-12">
                             <div className="story-text right-align-text">
-                                <h3>Llegó la pandemia</h3>
+                                <h3>Amor en tiempos de pandemia</h3>
                                 <span className="date">13 de marzo, 2019</span>
                                 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, </p>
                                 <div className="story-button">
@@ -82,7 +82,7 @@ const Story = () =>{
                         </div>
                         <div className="col-lg-6 col-md-12 col-12">
                             <div className="story-text left-align-text">
-                                <h3>Nos independizamos</h3>
+                                <h3>La vida independiente</h3>
                                 {/* <span className="date">Jan 10, 2018</span> */}
                                 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, </p>
                                 <div className="story-button">
@@ -92,7 +92,7 @@ const Story = () =>{
                         </div>
                         <div className="col-lg-6 col-md-12 col-12">
                             <div className="story-text right-align-text">
-                                <h3>Nos mudamos a la ciudad</h3>
+                                <h3>Nueva ciudad, nuevos sueños</h3>
                                 {/* <span className="date">20 de Abril, 2024</span> */}
                                 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, </p>
                                 <div className="story-button">
@@ -112,7 +112,7 @@ const Story = () =>{
                         </div>
                         <div className="col-lg-6 col-md-12 col-12">
                             <div className="story-text left-align-text">
-                                <h3>Nos comprometimos</h3>
+                                <h3>Un anillo y un para siempre</h3>
                                 <span className="date">20 de abril, 2024</span>
                                 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, </p>
                                 <div className="story-button">
