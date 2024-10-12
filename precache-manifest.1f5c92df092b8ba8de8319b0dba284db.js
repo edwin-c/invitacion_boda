@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f83b6d207a78fd2ed5b8425096d95768",
+    "revision": "0f5173bdcde474e6b92ec79a0d4dc77e",
     "url": "/invitacion_boda/index.html"
   },
   {
-    "revision": "9834b35b3bfaad79e70b",
+    "revision": "2cf111286619bbdca8d9",
     "url": "/invitacion_boda/static/css/2.b2e20ed0.chunk.css"
   },
   {
-    "revision": "47e970d883d6d6192548",
+    "revision": "352cb8deae1ad8964cdf",
     "url": "/invitacion_boda/static/css/main.9cb62530.chunk.css"
   },
   {
-    "revision": "9834b35b3bfaad79e70b",
-    "url": "/invitacion_boda/static/js/2.ea64cdd8.chunk.js"
+    "revision": "2cf111286619bbdca8d9",
+    "url": "/invitacion_boda/static/js/2.21b12961.chunk.js"
   },
   {
-    "revision": "47e970d883d6d6192548",
-    "url": "/invitacion_boda/static/js/main.1e9c76b5.chunk.js"
+    "revision": "352cb8deae1ad8964cdf",
+    "url": "/invitacion_boda/static/js/main.cb52705c.chunk.js"
   },
   {
     "revision": "971929f1a0dcc25c13a4",
@@ -72,8 +72,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/invitacion_boda/static/media/img-1.7fb38c92.jpg"
   },
   {
+    "revision": "8666af3a146ed37a94485b0d21806cab",
+    "url": "/invitacion_boda/static/media/img-1.8666af3a.jpg"
+  },
+  {
+    "revision": "015a401b48f2b033fe2fad2d11dc365b",
+    "url": "/invitacion_boda/static/media/img-2.015a401b.jpg"
+  },
+  {
     "revision": "9f41601f7ae4ea9141a6263560fad851",
     "url": "/invitacion_boda/static/media/img-2.9f41601f.jpg"
+  },
+  {
+    "revision": "0bb1c5100c01b135af87588847c32860",
+    "url": "/invitacion_boda/static/media/img-3.0bb1c510.jpg"
+  },
+  {
+    "revision": "55e9d7f72ab36bd7bb571bcb7d2d4914",
+    "url": "/invitacion_boda/static/media/img-4.55e9d7f7.jpg"
+  },
+  {
+    "revision": "c0c30af7956347ea2a431e2273f6d649",
+    "url": "/invitacion_boda/static/media/img-4.c0c30af7.jpg"
+  },
+  {
+    "revision": "1ad53973ec1870a70fc3eb17300fa8d3",
+    "url": "/invitacion_boda/static/media/img-5.1ad53973.jpg"
+  },
+  {
+    "revision": "a1444bdc83e567d68bb11b9fec14e47a",
+    "url": "/invitacion_boda/static/media/img-6.a1444bdc.jpg"
+  },
+  {
+    "revision": "fb54ce23eb9c7cc009c4e3f2efdb4ba3",
+    "url": "/invitacion_boda/static/media/img-7.fb54ce23.jpg"
   },
   {
     "revision": "ab16590640809c7ee88bb9c5c680e7fd",
