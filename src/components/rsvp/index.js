@@ -102,10 +102,10 @@ class Rsvp extends Component {
         };
         const handleRedirectNovia = () => {
             if (events == '1') {
-                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Paho, recibí la invitación para " + name + " y quiero confirmar la asistencia de " + cupos + " a tu boda."), '_blank');
+                window.open('https://wa.me/50251511147?text=' + encodeURIComponent("Hola Paho, recibí la invitación para " + name + " y quiero confirmar la asistencia de " + cupos + " a tu boda."), '_blank');
             }
             else {
-                window.open('https://wa.me/50231017894?text=' + encodeURIComponent("Hola Paho, recibí la invitación para tu boda y lastimosamente no te podré acompañar ese día."), '_blank');
+                window.open('https://wa.me/50251511147?text=' + encodeURIComponent("Hola Paho, recibí la invitación para tu boda y lastimosamente no te podré acompañar ese día."), '_blank');
             }
         };
         return (
