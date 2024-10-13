@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42ed8f3fdffff47762d429b87b47e87b",
+    "revision": "c5bd50c714e3534f3e16d1fdb416e371",
     "url": "/invitacion_boda/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/invitacion_boda/static/css/2.b2e20ed0.chunk.css"
   },
   {
-    "revision": "8b1f04c6db8c1a066a07",
-    "url": "/invitacion_boda/static/css/main.2ffd5fa9.chunk.css"
+    "revision": "58457d50e0360f820964",
+    "url": "/invitacion_boda/static/css/main.b723f43d.chunk.css"
   },
   {
     "revision": "b7277d5a2d69815ad560",
     "url": "/invitacion_boda/static/js/2.494d53f9.chunk.js"
   },
   {
-    "revision": "8b1f04c6db8c1a066a07",
-    "url": "/invitacion_boda/static/js/main.f96b4cff.chunk.js"
+    "revision": "58457d50e0360f820964",
+    "url": "/invitacion_boda/static/js/main.4fcc0a65.chunk.js"
   },
   {
     "revision": "971929f1a0dcc25c13a4",
@@ -146,6 +146,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0bb1c5100c01b135af87588847c32860",
     "url": "/invitacion_boda/static/media/img-3.0bb1c510.jpg"
+  },
+  {
+    "revision": "9705ed12c24bde340fe72c2bace53752",
+    "url": "/invitacion_boda/static/media/img-3.9705ed12.jpg"
   },
   {
     "revision": "d465fe4782fbab742c10b92023cf0439",
